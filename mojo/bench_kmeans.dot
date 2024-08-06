@@ -1,0 +1,14 @@
+digraph G {
+  rankdir = LR;
+"bench_kmeans" -> "libgcc_s.so.1"
+"bench_kmeans" -> "libstdc++.so.6"
+"libstdc++.so.6" -> "libgcc_s.so.1"
+"libgcc_s.so.1" -> "libc.so.6"
+"bench_kmeans" -> "libtinfo.so.6"
+"bench_kmeans" -> "libm.so.6"
+"libstdc++.so.6" -> "libm.so.6"
+"libstdc++.so.6" -> "libc.so.6"
+"bench_kmeans" -> "libc.so.6"
+"libtinfo.so.6" -> "libc.so.6"
+"libm.so.6" -> "libc.so.6"
+}
