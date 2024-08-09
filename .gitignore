@@ -161,3 +161,4 @@ cython_debug/
 
 machine_learning/artefacts/*.pth
 machine_learning/mnist/MNIST
+cuda/benchmark/*.csv
