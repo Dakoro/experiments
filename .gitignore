@@ -162,3 +162,6 @@ cython_debug/
 machine_learning/artefacts/*.pth
 machine_learning/mnist/MNIST
 cuda/benchmark/*.csv
+
+python/listing_0037_single_register_mov
+python/listing_0038_many_register_mov
