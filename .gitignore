@@ -165,3 +165,8 @@ cuda/benchmark/*.csv
 
 python/listing_0037_single_register_mov
 python/listing_0038_many_register_mov
+# pixi environments
+.pixi
+*.egg-info
+# magic environments
+.magic
