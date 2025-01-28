@@ -170,3 +170,5 @@ python/listing_0038_many_register_mov
 *.egg-info
 # magic environments
 .magic
+*.csv
+*.zip
