@@ -20,7 +20,7 @@ def main():
     best_runtime = min(runtimes)
     ncycles = best_runtime * CPU_FREQ
     ncycleadd = ncycles / COUNT
-    naddcycle = ncycleadd / ncycles
+    naddcycle = 1 / ncycleadd
     
     print(best_runtime)
     print(ncycles)
