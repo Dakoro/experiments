@@ -1,17 +1,11 @@
-@value # use this when your struct is an aggregation of types.
+@value
 struct Grid(StringableRaising):
     var rows: Int
     var cols: Int
     var data: List[List[Int]]
 
-    def __getitem__(self, row: Int, col: Int) -> Int:
-        return self.data[row][col]
-
-    def __setitem__(mut self, row: Int, col: Int, value: Int) -> None:
-        self.data[row][col] = value
-
     def __str__(self) -> String:
-    # Create an empty String
+        # Create an empty String
         str = String()
 
         # Iterate through rows 0 through rows-1

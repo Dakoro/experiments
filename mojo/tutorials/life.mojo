@@ -16,3 +16,4 @@ def main():
 
     start = Grid(8, 8, glider)
     print(String(start))
+
