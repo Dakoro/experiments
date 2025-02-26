@@ -8,11 +8,8 @@ fn SingleScalar(Count: Int, Input: List[Int]) -> Int:
     var SumB: Int = 0
     var SumC: Int = 0
     var SumD: Int = 0
-    for Index in range(0, Count, 4):
+    for Index in range(0, Count, 1):
         SumA += Input[Index]
-        SumB += Input[Index + 1]
-        SumC += Input[Index + 2];
-        SumD += Input[Index + 3];
     return SumA + SumB + SumC + SumD
 
 fn main()raises:

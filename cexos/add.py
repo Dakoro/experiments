@@ -1,8 +1,9 @@
 from time import perf_counter_ns
 def SingleScalar(Count, Input):
     Sum = 0
-    for Index in range(0, Count):
+    for Index in range(0, Count, 2):
         Sum += Input[Index]
+        Sum += Input[Index + 1]
     return Sum
 
 
